@@ -1,0 +1,16 @@
+{
+	"name": "usi/code-challenge",
+	"type": "project",
+	"require": {
+		"morris/lessql": "^0.3.5"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^8.0"
+	},
+	"scripts": {
+		"tests": "phpunit --bootstrap vendor/autoload.php --testdox tests"
+	},
+	"autoload": {
+		"psr-4": {"Coffee\\": "src/"}
+	}
+}
